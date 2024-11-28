@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Satisfy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900
+
+.playfair-<uniquifier> {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+/* .satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.cinzel-<uniquifier> {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* ******** */
+
+/* .cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+} */
+/* ******** */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* //navbar css */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  /* color: white !important; */
+
+  line-height: 26px;
+  text-transform: uppercase;
+  /* background-color: #ffddd3 !important; */
+  /* background-color: #e07a5f !important; */
+  background: linear-gradient(to right, #fc2f00, #ec7d10, #ffbc0a) !important;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+/* 
+.nav-link {
+  font-weight: 300 !important;
+} */
+
+.brandCraftkrit {
+  font-family: "Dancing Script", cursive !important;
+  font-optical-sizing: auto !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
+
+.active {
+  border-bottom: 2px solid #fefae0;
+  /* border-bottom: 2px solid black; */
+}
+/* *********footer***************** */
+.footer {
+  /* background-color: #e07a5f; */
+  background: linear-gradient(to right, #fc2f00, #ec7d10, #ffbc0a);
+  font-family: "Cinzel", serif !important;
+  font-optical-sizing: auto;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  margin-top: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  /* padding: 10px; */
+}
+
+.footer a:hover {
+  color: #bdbdbd;
+  border-bottom: 1px solid #ffefba;
+}
+/* *********footer***************** */
+
+.pageLinks {
+  font-family: "Cinzel", serif !important;
+  font-optical-sizing: auto;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  color: #03071e !important;
+}
+
+.navbar-brand {
+  /* font-weight: 900 !important; */
+  letter-spacing: 3px;
+  font-size: x-large !important;
+}
+
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+  color: #03071e;
+}
+
+.pnf-heading {
+  font-weight: normal;
+  color: #03071e;
+}
+
+.pnf-btn {
+  color: #03071e;
+  border: 1px solid #03071e;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  /* background-color: black; */
+  background-color: #03071e;
+  color: white;
+}
+/* ========================================= */
+
+/* =============== Contact us======= */
+.contactHeading {
+  background-color: #003049 !important;
+  background-color: #7cb518 !important;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contactMe {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* =============== Contact us======= */
+/* =============== Register======= */
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+  /* width: 120vw; */
+}
+
+.registerBody {
+  /* background-image: url("https://wallpapercave.com/wp/wp3321260.jpg"); */
+  background-image: url("../public/images/registerBg.jpg");
+  background-size: cover;
+}
+.regForm {
+  width: 300px !important;
+  border: 3px solid #fefae0 !important;
+  padding: 20px;
+  backdrop-filter: blur(4px);
+}
+
+.regForm h4 {
+  background-color: #023e8a !important;
+  color: #ededed;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  height: 6vh;
+  padding: 5px;
+}
+.regButton {
+  background-color: #023e8a;
+  width: 250px;
+  margin-left: 0.5vw;
+  height: 6vh;
+  padding: 1px;
+}
+input:hover {
+  background-color: #e6e0e0;
+  /* /* background-color: #ededed;  */
+}
+/* =============== Register======= */
+
+/* ******* */
+
+/* ******* */
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
