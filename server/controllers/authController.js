@@ -74,7 +74,7 @@ export const loginController = async (req, res) => {
     //desructure email and password as we need only these two to login
     const { email, password } = req.body;
 
-    //validation
+    //validat
     if (!email || !password) {
       return res.status(404).send({
         success: false,
@@ -235,13 +235,13 @@ export const getAllOrdersController = async (req, res) => {
       .find({})
       .populate("products", "-photo")
       .populate("buyer", "name")
-      .sort({ createdAt: "-1" });
+      .sort({ createdAt: -1 });
     res.json(orders);
   } catch (error) {
     console.log(error);
     res.status(500).send({
       success: false,
-      message: "Error WHile Geting Orders",
+      message: "Error While Getting Orders",
       error,
     });
   }
